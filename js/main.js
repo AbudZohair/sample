@@ -21,7 +21,7 @@ window.addEventListener('scroll', ()=>{
 
 
 // Smooth Scrolling
-$('nav a, .btn').on('click', function(event) {
+$('nav a').on('click', function(event) {
   if (this.hash !== '') {
     event.preventDefault();
 
